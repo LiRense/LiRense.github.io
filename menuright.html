@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Курсовая работа</title>
+<style>
+   .textr{
+    text-align:  RIGHT;
+   }
+  </style>
+  <style>
+   .textc{
+    text-align:  CENTER;
+   }
+   
+  </style>
+ <style>
+      #menuVertical{width:100%;height:auto;}
+    #menuVertical ul{
+        display:block;
+        width:50%;
+        height:auto;
+        margin:0px;
+        padding:0px;
+		border-top:2px solid #3b2542;
+        list-style:none;
+        position:relative;
+    }
+        #menuVertical ul li{display:block; width:100%; height:auto; position:relative;}
+            #menuVertical ul li a{
+                position:relative;
+                display:block;
+                width:100%;
+                height:auto;
+                box-sizing:border-box;
+                font-size:13px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:#88C714;
+                line-height:1.2em;
+                padding:10px 15px;
+                background:#683e75;
+                border-top:2px solid #3b2542;
+                text-decoration:none;
+            }
+            #menuVertical ul  li:first-child a{border:0px;}
+            #menuVertical ul li a:hover, #menuVertical ul li:hover a{
+                background:#A63CC7;
+            }
+            #menuVertical ul li ul{
+                position:absolute; 
+                top:0px;
+                left:100%;
+                display:none;
+                width:auto;
+            }
+            /*******показываем выпадашку при наведении ********/
+            #menuVertical ul li:hover ul{display:block;}
+                #menuVertical ul li ul li a{
+                    white-space:nowrap;
+					border-top:2px solid #3b2542;
+                    text-transform:none;
+                    padding:5px 20px;
+                }
+                    #menuVertical ul li ul li a:hover{
+                        background:#88C714;
+						border:2px solid #3b2542;
+                        color:#61117a;
+                    }
+    </style>
+</head>
+			
+
+	<body bgcolor="#66257A" >
+	<table align="left" cellspacing="2" wight="250px" >
+		<tr><td align="center" ><font size="5" color="#88C714"><u>Меню</u></font></td></tr>
+		<td>
+		<p>
+		</p>
+		<nav id="menuVertical">
+    <ul>
+        <li><a href="Diagnos\ALLIN.html" target="Main">1. Средства диагностики, контроля и мониторинга системы</a>
+            <ul>
+                <li><a href="Diagnos\AIDA.html" target="Main">1 AIDA64 (3.80)</a></li>
+                <li><a href="Diagnos\SiS.html" target="Main">2 SiSoftware Sandra 2016.03.22.20</a></li>
+				<li><a href="Diagnos\ASHOO.html" target="Main">3 Ashampoo WinOptimizer19</a></li>
+				<li><a href="Diagnos\ALLIN.html" target="Main">4 Общее</a></li>
+            </ul>
+        </li>
+		<li><a href="Save\ALLIN.html" target="Main"><br>2. Средства защиты информации от несанкционированного доступа</a>
+            <ul>
+                <li><a href="Save\SD.html" target="Main">1 SecretDisk</a></li>
+                <li><a href="Save\SF.html" target="Main"> 2 SecretFolder</a></li>
+				<li><a href="Save\LMF.html" target="Main">3 LimBlockFolder</a></li>
+				<li><a href="Save\ALLIN.html" target="Main">4 Общее</a></li>
+            </ul>
+        </li>
+		<li><a href="VM\allin.html" target="Main"><br>3. Средства создания и управления виртуальными машинами и операционными средами</a>
+            <ul>
+                <li><a href="VM\Oracle.html" target="Main">1 Oracle virtualBox</a></li>
+                <li><a href="VM\Hyper.html" target="Main">2 Hyper-V-Win10</a></li>
+				<li><a href="VM\VM.html" target="Main">3 VMware</a></li>
+				<li><a href="VM\allin.html" target="Main">4 Общее</a></li>
+            </ul>
+        </li>
+		<li><a href="About.html" target="Main"><br>Об авторе</a>
+		<ul>
+		</ul>
+		</li>
+       
+    </ul>
+</nav>
+
+    </table>
+	
+	</body>
+</html>

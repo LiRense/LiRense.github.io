@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html bgcolor="#683e75"> 
+<head>
+<meta charset="UTF-8" >
+<title>Курсовая работа</title>
+<style>
+   .textr{
+    text-align:  RIGHT;
+   }
+  </style>
+  <style>
+   .textc{
+    text-align:  CENTER;
+   }
+   
+  </style>
+  <style>
+#layer1, #layer2 {position: relative; /* Относительное позиционирование */} 
+#layer1 { z-index: 2; }
+#layer2 { z-index: 1; }
+</style>
+</head>
+	<frameset rows="16%, *" noresize scrolling="no" frameborder="0" framespacing="0"  >
+			<frame src="menu.html">
+	<frameset cols="500, *">
+	<div id="layer1"><frame src=" menuright.html" scrolling="NO" marginwidth="0" marginheight="0" style="border-top: 2px solid black;  background-color: #683e75;"></div>
+	<frameset cols="1100, *" >
+	<div id="layer2"><frame src="menumain.html" scrolling="AUTO" frameborder="NO" marginwidth="0" marginheight="0" name="Main" 
+	style="width:1000px; height:300px; border-top: 2px solid black;  background-color: #683e75;"></div>
+			</frameset>
+			</frameset>
+			</frameset>
+
+	<body >
+	
+
+	
+	</body>
+</html>
